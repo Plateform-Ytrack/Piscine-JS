@@ -16,3 +16,15 @@ export function pimp(){
                 elem.classList.add('unpimp')
             }
         }
+        if (mat%2 != 0){
+            k = 0
+            elem.classList.add('unpimp')
+            elem.classList.remove(styles[j])
+            i++
+            j--
+            if(j == -1){
+                elem.classList.remove('unpimp')
+            }
+            
+     }
+}
